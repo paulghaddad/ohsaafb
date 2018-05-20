@@ -7,5 +7,3 @@ group :jekyll_plugins do
   gem "jekyll-watch"
   gem "github-pages"
 end
-
-gem "kramdown"

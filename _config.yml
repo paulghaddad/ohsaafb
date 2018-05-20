@@ -1,10 +1,8 @@
 name: ArtDiversions
-markdown: redcarpet
 highlighter: rouge
 baseurl:
 
 paginate_path: "/page:num"
 paginate: 4
-excerpt_separator: ""
 permalink: /:title/
-excerpt_separator: <!--excerpt-->
+excerpt_separator: <!--more-->
