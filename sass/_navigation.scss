@@ -1,0 +1,32 @@
+nav {
+
+  ul {
+    padding: $pad/2 0 0 0;
+    margin: 0 5%;
+    text-align: center;
+
+    li {
+      display: inline-block;
+      padding: .4rem .4rem .1rem .4rem; 
+
+      a {
+        color: $dark-red;
+        text-decoration: none;
+        @include font(sans);
+        @include font-size(1.1);
+
+        &:hover {
+          text-decoration: underline;
+          color: $hover-red;
+          @include link-transition;
+        }
+        
+        span {
+          @include bp(alpha) {
+            display: inline;
+          }
+        }
+      }
+    }
+  }
+}

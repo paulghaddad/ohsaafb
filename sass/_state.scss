@@ -1,0 +1,13 @@
+@mixin link-styles {
+  a {
+    color: $dark-red;
+    &:hover {
+      color: $hover-red;
+      text-decoration: underline;
+      @include link-transition;
+    }
+    &:visited {
+      color: $charcoal;
+    }
+  }
+}

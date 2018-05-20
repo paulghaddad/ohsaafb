@@ -1,0 +1,13 @@
+.newsletter p:last-of-type {
+  @include font(sans);
+  text-align: center;
+  @include font-size(1.1);
+
+  a {
+    color: $dark-red;
+    &:hover {
+      color: $hover-red;
+      text-decoration: underline;
+    }
+  }
+}
