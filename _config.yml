@@ -9,7 +9,9 @@ excerpt_separator: <!--more-->
 
 collections_dir: collections
 collections:
-  videos:
+  mechanics:
     output: true
   rules:
+    output: true
+  videos:
     output: true
