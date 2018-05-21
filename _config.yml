@@ -11,6 +11,8 @@ collections_dir: collections
 collections:
   mechanics:
     output: true
+  observers:
+    output: true
   rules:
     output: true
   videos:
