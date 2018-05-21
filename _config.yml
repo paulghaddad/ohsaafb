@@ -11,3 +11,5 @@ collections_dir: collections
 collections:
   videos:
     output: true
+  rules:
+    output: true
