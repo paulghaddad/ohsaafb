@@ -13,6 +13,8 @@ collections:
     output: true
   observers:
     output: true
+  questions:
+    output: true
   rules:
     output: true
   videos:
