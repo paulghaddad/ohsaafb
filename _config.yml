@@ -9,6 +9,8 @@ excerpt_separator: <!--more-->
 
 collections_dir: collections
 collections:
+  bulletins:
+    output: true
   mechanics:
     output: true
   observers:
