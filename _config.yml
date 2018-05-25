@@ -21,3 +21,5 @@ collections:
     output: true
   videos:
     output: true
+  quizzes:
+    output: true
