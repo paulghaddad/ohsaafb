@@ -1,6 +1,5 @@
-name: ArtDiversions
+title: OHSAA Football Officials
 highlighter: rouge
-baseurl:
 
 paginate_path: "/page:num"
 paginate: 4

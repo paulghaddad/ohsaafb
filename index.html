@@ -1,18 +1,19 @@
 ---
 layout: default
-title: Art Diversions | Home
+title: OHSAA Football Officials | Home
 ---
 
-{% for post in paginator.posts %}
+{% assign documents = site.documents | reverse %}
+
+{% for post in documents limit:10 %}
 
   <article class="post module">
 
     <h1><a href="{{ site.baseurl }}{{ post.url }}" title="post.title">{{ post.title }}</a></h1>
 
-    <h2><em><time datetime="2014-01-21">By {{ post.author }} on {{ post.date | date_to_long_string }} in {{ post.location }}</time></em></h2> 
+    <h2><em><time datetime="2014-01-21">By {{ post.author }} on {{ post.date | date_to_long_string }}</time></em></h2> 
 
     {{ post.excerpt }}
-
 
     <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}" class="continue-reading">Continue reading</a>
 

@@ -4,26 +4,7 @@
 
     {{ content }}
 
-  <nav class="arrows module clearfix">
-
-    {% if paginator.total_pages > 1 %}
-      {% if paginator.previous_page %}
-        {% if paginator.previous_page == 1 %}
-          <p class="col-1-2 new-arrow"><span class="icon-arrow-left"></span><a href="/">Newer Posts</a></p>
-        {% else %}
-          <p class="col-1-2 new-arrow"><span class="icon-arrow-left"></span><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">Newer Posts</a></p>
-        {% endif %}
-      {% endif %}
-
-      {% if paginator.next_page %}
-        <p class="col-1-2 old-arrow"><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts</a><span class="icon-arrow-right"></span></p>
-      {% endif %}
-    {% endif %}
-    
-
-
-  </nav>
-
+      {% include pagination.html %}
 
   </section>
 
