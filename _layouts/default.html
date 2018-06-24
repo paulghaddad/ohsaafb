@@ -1,11 +1,16 @@
 {% include header.html %}
 
-  <section class="blog-posts" role="main">
+<div class="grid clearfix">
+
+  <section class="main-posts grid-2-3" role="main">
+    <h1>Latest</h1>
 
     {{ content }}
 
-      {% include pagination.html %}
+    {% include pagination.html %}
 
   </section>
+
+</div> <!-- .grid -->
 
 {% include footer.html %}

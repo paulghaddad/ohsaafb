@@ -18,8 +18,14 @@
   </head>
 
   <body role="document" class="document">
-    <div class="grid grid-pad">
-      <header class="main-header" role="banner">
-        <a href="{{ site.baseurl }}" title="OHSAA Football Officials Home"><h1></h1></a>
-        {% include navigation.html %}
-      </header>
+    <header class="logo">
+      <a href="{{ site.baseurl }}" title="OHSAA Football Officials Home">
+        <h1>
+          <p>OHSAA</p>
+          <p>Football Officials</p>
+        </h1>
+      </a>
+    </header>
+
+    <div class="page-wrap">
+      {% include navigation.html %}
