@@ -1,6 +1,9 @@
 {
   "name": "artdiversions",
   "version": "0.1.0",
+  "scripts": {
+      "grunt": "grunt"
+  },
   "devDependencies": {
     "grunt": "~0.4.2",
     "grunt-contrib-concat": "~0.3.0",
