@@ -1,6 +1,15 @@
-/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+@import "normalize";
+@import "bits";
+@import "typography";
+@import "icons";
+@import "post";
+@import "footer";
 
-/*
+// @import "compass/css3";
+
+/*;
+ * HTML5 Boilerplate
+ *
  * What follows is the result of much research on cross-browser styling.
  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
  * Kroc Camen, and the H5BP dev community and team.
@@ -10,12 +19,6 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-@import 'normalize';
-
-*, *:before, *:after {
-    box-sizing: border-box;   
-}
-
 html,
 button,
 input,
@@ -24,15 +27,15 @@ textarea {
     color: #222;
 }
 
-html {
-    font-size: 100%;
-    font-size: 1rem;
+body {
+    font-size: 1em;
     line-height: 1.4;
+    @include font-stack-main;
 }
 
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
- * These selection rule sets have to be separate.
+ * These selection declarations have to be separate.
  * Customize the background color to match your design.
  */
 
@@ -60,14 +63,10 @@ hr {
 }
 
 /*
- * Remove the gap between images, videos, audio and canvas and the bottom of
- * their containers: h5bp.com/i/440
+ * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
  */
 
-audio,
-canvas,
-img,
-video {
+img {
     vertical-align: middle;
 }
 
@@ -90,10 +89,10 @@ textarea {
 }
 
 /* ==========================================================================
-   Browse Happy prompt
+   Chrome Frame prompt
    ========================================================================== */
 
-.browsehappy {
+.chromeframe {
     margin: 0.2em 0;
     background: #ccc;
     color: #000;
@@ -104,9 +103,78 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+  background: url(../img/dark_wall/dark_wall.png); 
+}
 
-@import 'imports';
+/* --- Header -- */
 
+.logo {
+  @include font-stack-header;
+  font-weight: 500;
+  width: 80%;
+  @include breakpoint(alpha) {width: (95%); }
+  @include breakpoint(beta) {width: (95%); }
+  margin: 0 auto;
+  background: url('../img/ohsaa_logo.png') no-repeat 100% 50%;
+  background-size: 11em;
+  @include breakpoint(alpha) {
+    padding: .6em 0;
+  }
+  @include breakpoint(beta-1) {
+    background-position: 100% 50%;
+    padding: .6em 0;
+  }
+  @include breakpoint(beta) {
+    background-position: 50% 12%;
+    padding-top: 90px;
+    margin-top: 0;
+    background-size: 8em;
+    }
+
+  a {
+    color: $white;
+    width: 80%;
+    font-size: 1.8em;
+    letter-spacing: 1.5px;
+    h1 {margin: 0;}
+    p {
+      white-space: nowrap;
+      line-height: 1.2;
+      margin: 0;
+      padding-bottom: 0;
+      &:nth-child(1) {@include breakpoint(beta) {display: none;}}
+      @include breakpoint(alpha) {
+        font-size: 1.5em;
+        padding: 0 0;
+        line-height: 1.1;
+      }
+      @include breakpoint(beta-1) {
+        font-size: 1.3em;
+        line-height: 1;
+      }
+      @include breakpoint(beta) {
+        padding-top: .6em;
+        text-align: center;
+        font-size: .8em;
+        }
+     }
+  }
+}
+
+@import "nav";
+
+/* --- Layout -- */
+
+.page-wrap {
+  width: 80%;
+  @include breakpoint(alpha) {width: (95%); }
+  @include breakpoint(beta) {width: (95%); }
+  background: $dark-steel;
+  margin: 20px auto 0 auto;
+}
+
+@import "grid";
 
 /* ==========================================================================
    Helper classes
@@ -128,7 +196,7 @@ textarea {
     content: "";
     display: block;
     width: 0;
-    height: 150%;
+    height: 100%;
 }
 
 /*
@@ -211,7 +279,7 @@ textarea {
 
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
+   Theses examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
 
@@ -219,10 +287,8 @@ textarea {
     /* Style adjustments for viewports that meet the condition */
 }
 
-@media print,
-       (-o-min-device-pixel-ratio: 5/4),
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 120dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+       only screen and (min-resolution: 144dpi) {
     /* Style adjustments for high resolution devices */
 }
 

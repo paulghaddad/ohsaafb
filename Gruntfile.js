@@ -16,7 +16,7 @@ module.exports = function(grunt) {
             src: 'js/build/production.js',
             dest: 'js/build/production.min.js'
         }
-    }, 
+    },
 
     imagemin: {                          // Task
       dynamic: {                         // Another target
@@ -38,7 +38,7 @@ module.exports = function(grunt) {
           style: 'compressed'
         },
         files: {                         // Dictionary of files
-          'css/main_unprefixed.css': 'sass/styles.scss'      // 'destination': 'source'
+          'css/main_unprefixed.css': 'sass/main.scss'      // 'destination': 'source'
         }
       }
     },
