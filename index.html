@@ -5,18 +5,23 @@ title: OHSAA Football Officials | Home
 
 {% assign documents = site.documents | reverse %}
 
-{% for post in documents limit:10 %}
+<section class="main-posts grid-1" role="main">
+  <h1>Latest</h1>
 
-  <article class="post module">
+  {% for post in documents limit:10 %}
 
-    <h1><a href="{{ site.baseurl }}{{ post.url }}" title="post.title">{{ post.title }}</a></h1>
+    <article class="post module">
 
-    <h2><em><time datetime="2014-01-21">By {{ post.author }} on {{ post.date | date_to_long_string }}</time></em></h2> 
+      <a href="{{ site.baseurl }}{{ post.url }}" title="post.title"><h2>{{
+          post.title }}</h2></a>
 
-    {{ post.excerpt }}
+      <time datetime="2014-01-21">By {{ post.author }} on {{ post.date | date_to_long_string }}</time>
 
-    <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}" class="continue-reading">Continue reading</a>
+      {{ post.excerpt }}
 
-  </article>
+      <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}" class="continue-reading">Go there &rArr;</a>
 
-{% endfor %}
+    </article>
+
+  {% endfor %}
+</section>

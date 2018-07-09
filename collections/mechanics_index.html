@@ -4,8 +4,16 @@ title: Mechanics
 permalink: /mechanics/index.html
 ---
 
-{% for item in site.mechanics %}
-  <h2>{{ item.title }}</h2>
-  <p>{{ item.description }}</p>
-  <p><a href="{{ item.url }}">{{ item.title }}</a></p>
-{% endfor %}
+<section class="main-posts mechanics grid-1" role="main">
+  <h1>Mechanics</h1>
+
+  {% for item in site.mechanics %}
+    <section class="module">
+      <h2>{{ item.title }}</h2>
+      <time datetime="2014-01-21">By {{ item.author }} on {{ item.date | date_to_long_string }}</time>
+      <p>{{ item.excerpt }}</p>
+      <a href="{{ item.url }}">Read Article &rArr;</a>
+    </section>
+  {% endfor %}
+
+</section>

@@ -4,8 +4,16 @@ title: quizzes
 permalink: /quizzes/index.html
 ---
 
-{% for item in site.quizzes %}
-  <h2>{{ item.title }}</h2>
-  <p>{{ item.description }}</p>
-  <p><a href="{{ item.url }}">{{ item.title }}</a></p>
-{% endfor %}
+<section class="main-posts quiz grid-1" role="main">
+  <h1>Latest Quizzes</h1>
+
+  {% for item in site.quizzes %}
+    <section class="module">
+      <h2>{{ item.title }}</h2>
+      <time datetime="2014-01-21">By {{ item.author }} on {{ item.date | date_to_long_string }}</time>
+      <p>{{ item.excerpt }}</p>
+      <a href="{{ item.url }}">Take Quiz &rArr;</a>
+    </section>
+  {% endfor %}
+
+</section>
