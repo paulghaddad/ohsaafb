@@ -83,6 +83,4 @@ module.exports = function(grunt) {
   // Default task(s).
   // Need to manually run imagemin
   grunt.registerTask('default', ['concat', 'uglify', 'sass', 'autoprefixer', 'watch']);
- 
-
 };
