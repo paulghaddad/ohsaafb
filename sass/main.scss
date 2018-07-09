@@ -104,7 +104,7 @@ textarea {
    ========================================================================== */
 
 body {
-  background: url(../img/dark_wall/dark_wall.png); 
+  background: url('../../img/built/dark_wall/dark_wall.png');
 }
 
 /* --- Header -- */
@@ -116,7 +116,7 @@ body {
   @include breakpoint(alpha) {width: (95%); }
   @include breakpoint(beta) {width: (95%); }
   margin: 0 auto;
-  background: url('../img/ohsaa_logo.png') no-repeat 100% 50%;
+  background: url('../../img/built/ohsaa_logo.png') no-repeat 100% 50%;
   background-size: 11em;
   @include breakpoint(alpha) {
     padding: .6em 0;

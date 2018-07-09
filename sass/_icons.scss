@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'entypo';
-  src: url('../fonts/entypo.woff') format('woff'),  /* Firefox 3.6+, IE9+, Chrome 6+, Safari 5.1+*/
-       url('../fonts/entypo.ttf') format('truetype');  /* Safari 3—5, Chrome4+, Firefox 3.5, Opera 10+ */
+  src: url('../../fonts/entypo.woff') format('woff'),  /* Firefox 3.6+, IE9+, Chrome 6+, Safari 5.1+*/
+       url('../../fonts/entypo.ttf') format('truetype');  /* Safari 3—5, Chrome4+, Firefox 3.5, Opera 10+ */
 }
 
 @mixin font-icon {
