@@ -4,10 +4,12 @@ title: Mechanics
 permalink: /mechanics/index.html
 ---
 
+{% assign mechanics = site.mechanics | reverse %}
+
 <section class="main-posts mechanics grid-1" role="main">
   <h1>Mechanics</h1>
 
-  {% for item in site.mechanics %}
+  {% for item in mechanics %}
     <section class="module">
       <h2>{{ item.title }}</h2>
       <time datetime="2014-01-21">By {{ item.author }} on {{ item.date | date_to_long_string }}</time>

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Please click here to view the OHSAA Football bulletin for Week 5."
+title:  "2017 Football Bulletin - Week 5"
 date:   2017-10-08
 author: "Bruce Maurer"
 ---

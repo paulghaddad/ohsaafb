@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "2016 Football Bulletin - Week 13"
-date:   2017-11-18
+date:   2016-11-18
 author: "Bruce Maurer"
 ---
 

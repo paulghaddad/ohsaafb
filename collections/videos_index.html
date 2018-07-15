@@ -4,10 +4,12 @@ title: Videos
 permalink: /videos/index.html
 ---
 
+{% assign videos = site.videos | reverse %}
+
 <section class="main-posts video grid-1" role="main">
   <h1>Latest Videos</h1>
 
-  {% for item in site.videos %}
+  {% for item in videos %}
     <section class="module">
       <h2>{{ item.title }}</h2>
       <time datetime="2014-01-21">By {{ item.author }} on {{ item.date | date_to_long_string }}</time>

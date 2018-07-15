@@ -4,10 +4,12 @@ title: bulletins
 permalink: /bulletins/index.html
 ---
 
+{% assign bulletins = site.bulletins | reverse %}
+
 <section class="main-posts bulletin grid-1" role="main">
   <h1>Bulletins</h1>
 
-  {% for item in site.bulletins %}
+  {% for item in bulletins %}
     <section class="module">
       <h2>{{ item.title }}</h2>
       <time datetime="2014-01-21">By {{ item.author }} on {{ item.date | date_to_long_string }}</time>
