@@ -1,13 +1,13 @@
 ---
 layout: post
 title:  "Penalty Report"
-date:   2019-06-12
+date:   2020-07-20
 author: "Bruce Maurer"
 ---
 
 A printable penalty report for tracking penalties.
 
 [Click here to view the penalty
-report](https://storage.googleapis.com/ohsaa-websites/mechanics/penalty-report-2019.pdf).
+report](https://storage.googleapis.com/ohsaa-websites/mechanics/Football%20Penalty%20Report.pdf).
 
-Updated June 12, 2019.
+Updated July 20, 2020.
