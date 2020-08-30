@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "2020 Preseason Bulletin"
+title:  "2020 Preseason Bulletin 1"
 date:   2020-07-17
 author: "Bruce Maurer"
 ---
