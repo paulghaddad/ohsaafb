@@ -2,7 +2,7 @@
 layout: post
 title:  "2021 NFHS Rule Guidance: Blocking Below the Waist in Free-Blocking
 Zone"
-date:   2021-02-15
+date:   2021-02-14
 author: "Bruce Maurer"
 ---
 
