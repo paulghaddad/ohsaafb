@@ -1,14 +1,13 @@
 ---
 layout: post
-title:  "Mechanics By Position - Center Judge / Umpire"
-date:   2020-08-30
+title:  "Mechanics By Position - Umpire"
+date:   2021-07-11
 author: "Bruce Maurer"
 ---
 
 The Mechanics By Position documents focus on the Gold Book mechanics for each
-position. This document is updated for the 2020 season.
+position. This document is updated for the 2021 season.
 
-[Click here to view the Mechanics By Position for
-Center Judge / Umpires on crews of 5 officials](https://storage.googleapis.com/ohsaa-websites/mechanics/OHSAA%20Center%20Judge%20(CJ)%3AUmpire%20(U)%20Mechanics%20-%205%20Officials.pdf).
+[Click here to view the Mechanics By Position for Umpires](https://storage.googleapis.com/ohsaa-websites/mechanics/2021-mechanics-by-position-u.pdf).
 
-Updated August 30, 2020
+Updated July 11, 2021
