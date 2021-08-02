@@ -8,10 +8,7 @@ author: "Bruce Maurer"
 
 The 2021 OHSAA Goldbook can be viewed by clicking the sections below. The entire
 Gold Book can also be viewed by [clicking
-here](https://ohsaaweb.blob.core.windows.net/files/Sports/Football/GoldBook.pdf).
-
-You can also download the gold book in its entirety by [clicking
-here](https://storage.googleapis.com/ohsaa-websites/mechanics/gold-book/2020/2020%20Gold%20Book%20PDF.pdf).
+here](https://storage.googleapis.com/ohsaa-websites/mechanics/2021-gold-book-full.pdf).
 
 <!--more-->
 
