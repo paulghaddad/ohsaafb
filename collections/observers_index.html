@@ -1,0 +1,21 @@
+---
+layout: default
+title: Observers
+permalink: /observers/index.html
+---
+
+{% assign observers = site.observers | reverse %}
+
+<section class="main-posts observer grid-1" role="main">
+  <h1>Observers</h1>
+
+  {% for item in observers %}
+    <section class="module">
+      <h2>{{ item.title }}</h2>
+      <time datetime="2014-01-21">By {{ item.author }} on {{ item.date | date_to_long_string }}</time>
+      <p>{{ item.excerpt }}</p>
+      <a href="{{ item.url }}">Go There &rArr;</a>
+    </section>
+  {% endfor %}
+
+</section>

@@ -1,0 +1,75 @@
+/* ---  Nav  -- */
+
+a {
+  text-decoration: none;
+}
+
+.main-nav {
+  border-bottom: 5px solid $dark-gray; 
+  ul {
+    padding: 0;
+    margin: 0;
+    .toggle-navigation {
+        display:none;
+        @include breakpoint(beta) {
+          display: block;
+          width: 100%;
+          box-shadow: none;
+
+          body.nav-on & {
+            display: none;
+          }
+        }
+      }
+
+    li {
+      padding: 0;
+      margin: 0;
+      float: left;
+      width: 12.5%;
+      @include breakpoint(alpha) {width: (24.7%); }
+      @include breakpoint(beta) {
+        width: (49.6%); 
+        &:not(.toggle-navigation) {
+          display:none;
+          body.nav-on & {
+            display: block;
+          }
+        }
+      }
+
+      background: $green;
+      // @include transition(background 0.15s ease);
+      box-shadow: 10px 1px 15px -5px rgba(black, .8);
+      position: relative;
+      &:nth-child(1) {z-index: 8; }
+      &:nth-child(2) {z-index: 7; }
+      &:nth-child(3) {z-index: 6; }
+      &:nth-child(4) {z-index: 5; }
+      &:nth-child(5) {z-index: 4; }
+      &:nth-child(6) {z-index: 3; }
+      &:nth-child(7) {z-index: 2; }
+      &:nth-child(8) {z-index: 1; }
+      &:hover, &:focus {
+        background: darken($green, 10%);
+      }
+      a {
+         display: block;
+         line-height: 2em; 
+         padding: $link-padding $link-padding $link-padding $link-padding+.1em;
+         span {
+            display: inline-block;
+            position: relative;
+            top: 3px;
+          }
+        }
+      }
+  }
+}
+
+.home li.home, .post-type-archive-video li.videos, .single-video li.videos, .post-type-archive-quiz li.quiz, .single-quiz li.quiz, .post-type-archive-question li.question, .single-question li.question, .post-type-archive-observer li.observer, .single-observer li.observer, .post-type-archive-bulletin li.bulletin, .single-bulletin li.bulletin, .post-type-archive-mechanics li.mechanics, .single-mechanics li.mechanics, .post-type-archive-rules li.rules, .single-rules li.rules {
+  background: darken($green, 10%);
+    a {
+      color: white;
+    }
+}

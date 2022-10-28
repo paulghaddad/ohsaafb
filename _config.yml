@@ -1,0 +1,24 @@
+title: OHSAA Football Officials
+highlighter: rouge
+
+paginate_path: "/page:num"
+paginate: 4
+permalink: /:title/
+excerpt_separator: <!--more-->
+
+collections_dir: collections
+collections:
+  bulletins:
+    output: true
+  mechanics:
+    output: true
+  observers:
+    output: true
+  questions:
+    output: true
+  rules:
+    output: true
+  videos:
+    output: true
+  quizzes:
+    output: true

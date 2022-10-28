@@ -1,0 +1,21 @@
+---
+layout: default
+title: Rules
+permalink: /rules/index.html
+---
+
+{% assign rules = site.rules | reverse %}
+
+<section class="main-posts rules grid-1" role="main">
+  <h1>Rules</h1>
+
+  {% for item in rules %}
+    <section class="module">
+      <h2>{{ item.title }}</h2>
+      <time datetime="2014-01-21">By {{ item.author }} on {{ item.date | date_to_long_string }}</time>
+      <p>{{ item.excerpt }}</p>
+      <a href="{{ item.url }}">Read Article &rArr;</a>
+    </section>
+  {% endfor %}
+
+</section>

@@ -1,0 +1,64 @@
+/* --- Colors -- */
+$white: white;
+$light-gray: #929292;
+$dark-gray: #4a4a4a;
+$darkest-gray: #4b4b50;
+$nav-button: lighten($dark-gray, 15%);
+$green: #42853f;
+$caption-text: lighten(black, 10%);
+$body-text: #444;
+$heading-text: #222;
+$link-color:  #0033FF;
+$nav-green: #579102;
+$light-beige: #f1f0ce;
+$beige-font: #aa9c84;
+$blue-link: #789fb3;
+
+$steel: #e6e7e8;
+$dark-steel: #3c484a;
+$new_blue: #21a1d7;
+
+$video-module: #b06169;
+$quiz-module: #e5b232;
+$question-module: #829f7d;
+$observer-module: #5b7d90;
+$bulletin-module: #a8a8a8;
+$mechanics-module: #675571;
+$rules-module: lighten(#d58a3c, 10%);
+
+/* --- Numbers -- */
+$padding: .3em;
+$link-padding: .5em;
+$grid-padding: 1em;
+$post-padding: .5em;
+$p-padding: 1em;
+$title-padding: .3em;
+$footer-padding: 1em;
+
+
+/* --- Fonts -- */
+@mixin font-stack-main {
+  font-family: 'Open Sans', sans-serif;
+}
+
+@mixin font-stack-header {
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+
+/* --- Breakpoints -- */
+
+@mixin breakpoint($point) {
+  @if $point == alpha {
+    @media (max-width: 78em) { @content; }
+  }
+  @else if $point == beta-1 {
+    @media (max-width: 65em) { @content; }
+  }
+  @else if $point == beta {
+    @media (max-width: 45em) { @content; }
+  }
+  @else if $point == gamma {
+    @media (max-width: 25em)  { @content; }
+  }
+}
