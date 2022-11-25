@@ -6,4 +6,4 @@ author: "Bruce Maurer"
 ---
 
 [Please click here to view the OHSAA Football bulletin
-14](https://storage.googleapis.com/ohsaa-websites/bulletins/2022/2022-bulletin-14.pdf).
+18](https://storage.googleapis.com/ohsaa-websites/bulletins/2022/2022-bulletin-14.pdf).
