@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "2022 OHSAA Goldbook: Approved Football Officiating Mechanics,
+title:  "2023 OHSAA Gold Book: Approved Football Officiating Mechanics,
 Regulations & Standards Handbook"
-date:   2022-07-18
+date:   2023-8-07
 author: "Bruce Maurer"
 ---
 
-The 2022 OHSAA Goldbook can be viewed by [clicking
-here](https://storage.googleapis.com/ohsaa-websites/mechanics/2022%20Gold%20Book%20PDF.pdf).
+The 2023 OHSAA Gold Book can be viewed by [clicking
+here](https://storage.googleapis.com/ohsaa-websites/mechanics/2023%20Gold%20Book%20PDF.pdf).
 
 <!--more-->
 <!--
@@ -38,4 +38,4 @@ here](https://storage.googleapis.com/ohsaa-websites/mechanics/2022%20Gold%20Book
 * [Working Effectively with Coaches](https://storage.googleapis.com/ohsaa-websites/mechanics/gold-book/2021/2021-gold-book-25-coaches.pdf)
 * [WOW! Just How Big is Ohio FB](https://storage.googleapis.com/ohsaa-websites/mechanics/gold-book/2021/2021-gold-book-26-wow.pdf) -->
 
-Updated July 18, 2022.
+Updated August 7, 2023

@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "HL Instructions for Line to Gain Crews"
-date:   2022-07-10
+date:   2023-08-07
 author: "Bruce Maurer"
 ---
 
 This document provides instructions for the HL in working with the Line To Gain
-(LTG) crews. [Click here to view the document](https://storage.googleapis.com/ohsaa-websites/mechanics/2022-hl-instructions-for-ltg-crews.pdf).
+(LTG) crews. [Click here to view the document](https://storage.googleapis.com/ohsaa-websites/mechanics/2023-hl-instructions-for-ltg-crews.pdf).
 
-Updated July 10, 2022
+Updated August 7, 2023

@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Extension of Periods"
-date:   2022-07-10
+date:   2023-08-09
 author: "Bruce Maurer"
 ---
 
-Please find a discussion of the rule on the extension of period in this [document](https://storage.googleapis.com/ohsaa-websites/rules/2022-extension-of-periods.pdf).
+Please find a discussion of the rule on the extension of period in this [document](https://storage.googleapis.com/ohsaa-websites/rules/2023-extension-of-periods.pdf).
 
-Updated July 10, 2022
+Updated August 9, 2023

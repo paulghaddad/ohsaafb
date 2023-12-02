@@ -1,13 +1,10 @@
 ---
 layout: post
-title:  "Penalty Enforcement Presentation"
-date:   2022-07-16
+title:  "Penalty Summary Presentation"
+date:   2023-08-08
 author: "Bruce Maurer"
 ---
 
-This presentation provides a summary of penalty enforcement.
+This presentation provides a summary of NFHS penalties. [Click here for the presentation.](https://storage.googleapis.com/ohsaa-websites/rules/2023%20Penalty%20Summary%20PPT%20-%20Revised.pptx)
 
-* [Click here for the standard
-  presentation.](https://storage.googleapis.com/ohsaa-websites/rules/2022%20Penalty%20Enforcement%20PPT.ppt)
-
-Updated July 16, 2022
+Updated August 27, 2023
